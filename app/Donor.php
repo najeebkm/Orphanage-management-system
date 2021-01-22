@@ -6,7 +6,7 @@ use App\User;
 
 class Donor extends User
 {
-	public $defaultPassword = "orphandb2016";
+	public $defaultPassword = "oms12345";
 
 	public function orphans() {
         return $this->hasMany('App\Orphan', 'donor_id');
