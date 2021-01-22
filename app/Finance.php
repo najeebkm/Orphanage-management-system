@@ -13,7 +13,7 @@ class Finance extends Model
 	'month', 
 	'has_donation', 
 	'amount_rupee', 
-	'amount_paise', 
+	'amount_dollar', 
 	'type', 
 	'received_at', 
 	'orphan_id',
