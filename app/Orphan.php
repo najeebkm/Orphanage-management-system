@@ -13,7 +13,7 @@ class Orphan extends Model
 	protected $table = 'orphans';
 
 	protected $fillable = [
-	'first_name', 'middle_name', 'middle_name_ar', 'last_name',
+	'first_name', 'middle_name','last_name',
 	'gender', 'birthday', 'phone', 'email', 'national_id', 'bank_id', 'photo', 'video', 'health_state',
 	'has_donation', 'donor_id', 'note', 'id'
 	];
